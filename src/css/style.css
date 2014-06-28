@@ -278,6 +278,17 @@ a:hover {
 	background:url(../img/arrow.png) 0 0 no-repeat;
     white-space:normal;
 }
+.slide1 .cap-3 {
+	padding:40px 0 0 65px;
+	width:800px;
+    height:400px;
+	font-size:25px;
+	line-height:30px;
+	color:#000;
+	font-weight:700;
+	background:url(../img/mcchiang.jpg) right center no-repeat;
+    white-space:normal;
+}
 .slide2 .cap-1 {
 	width:367px;
 	height:162px;
@@ -1550,7 +1561,7 @@ form {
 }
 .honors ul li {
 	float:left;
-	width:16.65%;
+	width:100%;
 	text-align:center;
 	list-style:none;
 	height:100px;
@@ -2038,10 +2049,4 @@ form {
 #main_advert .slide1 .cap-2 {
 	left:35px;
 	top:190px;
-}
-
-.mc_portrait {
-    margin-top: 165px;
-    position: relative;
-    float: right;
 }
