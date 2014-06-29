@@ -160,8 +160,12 @@ a:hover {
     font-size:16px;
     color:#000;
     font-weight:400;
-    padding-top:7px;}
-#header .inner .top .contacts_block .phone a, #header .inner .top .contacts_block .phone a:active, #header .inner .top .contacts_block .phone a:hover, #header .inner .top .contacts_block .phone a:visited {
+    padding-top:7px;
+}
+.mailto {
+    padding-top: 8px;
+}
+.mailto a:active, .mailto a:hover, .mailto a:visited, .mailto a:link {
     font-size:16px;
     color:#000;
     font-weight:400;
