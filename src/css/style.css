@@ -1580,6 +1580,11 @@ form {
 	max-width:100%;
 	max-height:100%;
 }
+.honors ul li ul li {
+    float:left;
+    width:33%;
+    padding: 5px;
+}
 
 .servingsince {
     margin-top: -10px;
