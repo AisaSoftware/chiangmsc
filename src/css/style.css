@@ -2072,3 +2072,60 @@ form {
 
 .anchor {
 }
+
+.info_slides_mc {
+    margin:0;
+    border-bottom:1px solid #660000;
+}
+.info_slides_mc > li {
+    border-top:1px solid #a3a3a3;
+    list-style:none;
+    display:block;
+    padding:12px 45px;
+    font-size:14px;
+    text-transform:uppercase;
+    color:#c7c7c7;
+    position:relative;
+    text-decoration:none;
+}
+.info_slides_mc > li .arr {
+    width:	20px;
+    height:20px;
+    color:#c7c7c7;
+    position:absolute;
+    left:17px;
+    top:50%;
+    margin-top:-10px;
+    font-size:18px;
+}
+.info_slides_mc > li .arr:before {
+    font-family: FontAwesome;
+    content: "\f054";
+    font-style: normal;
+}
+.info_slides_mc > li.active .arr {
+    margin-top:-13px;
+}
+.info_slides_mc > li.active .arr:before  {
+    content: "\f078";
+}
+.info_slides_mc > li .text {
+    padding:10px 0 1px 45px;
+    display:none;
+}
+.info_slides_mc > li .text p {
+    font-size:13px;
+    color:#616161;
+    line-height:22px;
+    margin-bottom:20px;
+}
+.info_slides_mc > li .text ul,
+.info_slides_mc > li .text ol {
+    margin-bottom:20px;
+}
+.info_slides_mc > li .text li {
+    font-size:13px;
+    color:#616161;
+    line-height:22px;
+    margin-bottom:5px;
+}
