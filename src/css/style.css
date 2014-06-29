@@ -168,7 +168,7 @@ a:hover {
 .mailto a:active, .mailto a:hover, .mailto a:visited, .mailto a:link {
     font-size:16px;
     color:#000;
-    font-weight:400;
+    font-weight:700;
 }
 #header .inner .top .contacts_block .phone span {
     font-weight:600;
