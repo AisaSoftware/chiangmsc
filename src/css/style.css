@@ -1569,7 +1569,7 @@ form {
 	width:50%;
 	text-align:center;
 	list-style:none;
-	height:100px;
+	height:140px;
 	line-height:100px;
 }
 .honors ul li a {
@@ -1582,11 +1582,10 @@ form {
 }
 
 .servingsince {
-    margin-top: -10px;
-    border: 1px solid black;
+    border: 2px groove #eeeeee;
     line-height: normal;
     text-align: left;
-    padding: 3px;
+    padding: 6px;
     background-color: #ffffff;
 }
 
@@ -2044,7 +2043,7 @@ form {
 #main_advert .slide {
 	position:relative;
 	overflow:hidden;
-	height:363px;
+	height:380px;
 }
 #main_advert .slide img {
 	max-width:none;
