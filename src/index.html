@@ -39,7 +39,10 @@
                                 <div class="row">                                            
                                     <div class="contacts_block">
                                     	<!-- edit phone number here -->
-                                        <div class="phone styler_color">CALL US NOW! &nbsp; <span>714-633-7686</span></div>
+                                        <div class="phone styler_color">
+                                            <a href="mailto:insfreedom@gmail.com">insfreedom@gmail.com</a> |
+                                            CALL US NOW! <span>714-633-7686</span>
+                                        </div>
                                         <div class="clear"></div>
                                     </div>
                                 </div>
@@ -67,7 +70,7 @@
                                                         <ul class="nav nav-pills">
                                                         	<!-- edit navigation menu -->
                                                             <li class="styler_parent_active"><a href="#home_anchor" class="styler_hover_bg_color styler_active_bg_color">Home</a></li>
-                                                            <li class="styler_parent_active"><a href="#medicare_101_anchor" class="styler_hover_bg_color styler_active_bg_color">MEDICARE 101</a></li>
+                                                            <li class="styler_parent_active"><a href="#welcome_anchor" class="styler_hover_bg_color styler_active_bg_color">WELCOME</a></li>
                                                             <li class="styler_parent_active"><a href="#covered_ca_anchor" class="styler_hover_bg_color styler_active_bg_color">COVERED CA</a></li>
                                                             <li class="styler_parent_active"><a href="#insurance_products_anchor" class="styler_hover_bg_color styler_active_bg_color">PRODUCTS</a></li>
                                                             <li class="styler_parent_active"><a href="#contact_anchor" class="styler_hover_bg_color styler_active_bg_color">CONTACT</a></li>
@@ -113,8 +116,9 @@
                             </ul>
 						</div>
 						<!-- /end award bar -->
-						
-						
+
+
+                        <div id="welcome_marker"></div>
 						<div class="welcome">
 							<div class="row">
                                 <!-- begin welcome -->
@@ -644,80 +648,25 @@
                         <div id="contact_marker"></div>
 						<div class="contacts">
 							<div class="row">
-								<div class="span12">
-									<div class="caption styler_color">CONTACT US</div>
-								</div>
+                                <div class="caption styler_color">CONTACT US</div>
 							</div>
 							<div class="row">
-								<div class="span8">
-									<div class="contact_form">
-										<form action="/" method="post" id="validForm">
-											<input type="text" id="inputName" name="name" placeholder="Name" />
-											<input type="text" id="inputEmail" name="email" placeholder="Email Address" />
-											<input type="text" name="subject" placeholder="Subject" />
-											<textarea id="textarea" name="comment" placeholder="Message"></textarea>
-											<!-- form disclaimer here -->
-                                            <div class="note"><span class="styler_color">DISCLAIMER:</span> The use of the Internet for communications with the firm will not establish an attorney-client relationship and messages containing confidential or time-sensitive information should not be sent.</div>
-											<div class="checkbox">
-												<input name="disclaimer" type="checkbox" value="" id="disclaimer" />
-												<label>I have read the disclaimer.</label>
-											</div>
-											<?php
-												require_once('config.php');
-												require_once('recaptchalib.php');
-												if($use_recaptcha === true){
-													echo recaptcha_get_html($publickey);
-												}
-											?>
-											<div id="result"></div>
-											<input type="submit" value="SUBMIT" class="styler_bg_color" />							
-										</form>
-										
-									</div>
-								</div>
-								<div class="span4">
-                                    <!-- begin address, phone & email -->
-                                    <div class="info">
-										<div class="header">ADDRESS, PHONE & EMAIL</div>
-										<div class="text">
-											<!-- edit address, phone & email here -->
-                                            <p>ONELAW</p>
-											<p>7800 East Mockingbird Lane</p>
-											<p>Suite 800</p>
-											<p>Dallas, TX 75235</p>
-											<p>USA</p>
-											<p>p. 214.985.9000</p>
-											<p>f. 214.985.9003</p>
-											<p>Email: hello@onelaw.com</p>
-										</div>
-									</div>
-                                    <!-- /end address, phone & email -->
-                                    <!-- begin office hours -->
-									<div class="info">
-										<div class="header">OFFICE HOURS</div>
-										<div class="text">
-											<!-- edit office hours here -->
-                                            <p>Monday: 8am to 6pm </p>
-											<p>Tuesday: 8am to 6pm </p>
-											<p>Wednesday: 8am to 6pm </p>
-											<p>Thursday: 8am to 6pm </p>
-											<p>Friday: 8am to 6pm </p>
-											<p>Saturday: Closed </p>
-											<p>Sunday: Closed </p>
-										</div>
-									</div>
-                                    <!-- /end office hours -->
-								</div>
+                                <!-- begin address, phone & email -->
+                                <div class="info">
+                                    <div class="header">Michael Chiang Insurance</div>
+                                    <div class="text">
+                                        <p>CA Insurance License: #0D65762</p>
+                                        <p>714-633-7686</p>
+                                        <p><a href="mailto:insfreedom@gmail.com">insfreedom@gmail.com</a></p>
+                                        <p><a href="mailto:chiangmsc@yahoo.com">chiangmsc@yahoo.com</a></p>
+                                    </div>
+                                </div>
+                                <!-- /end address, phone & email -->
 							</div>
 						</div>
 						<!-- /end contacts us -->
 
                     </div>
-                    
-                    <!-- begin map -->
-                    <div id="map"></div>
-                    <!-- /end map -->
-                    
                 </div>
                 <div id="empty"></div>
             </div>
@@ -725,48 +674,11 @@
 
         <!-- begin footer -->
         <div id="footer">
-            <div class="top">
-                <div class="container">
-                    <div class="row">
-                        <div class="span4">
-                            <!-- edit footer logo here -->
-                            <a href="#" class="logo"><img src="img/logo_white.png" alt="" /></a>
-                            <div class="text">
-                                <!-- edit board certifcation disclaimer here -->
-                                <p>Unless identified as such, attorneys listed in this website are not certified by the [State] Board of Legal Specialization.</p>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <!-- begin site-wide disclaimer -->
-                            <div class="text">
-                                <div class="header">DISCLAIMER</div>
-                                <!-- type your site-wide disclaimer here -->
-                                <p>All materials contained on this website are made available by [FirmName] for informational purposes only and should not be construed as legal advice. The transmission and receipt of information contained on this website does not form or constitute an attorney-client relationship. Persons should not act upon information found on this website without first seeking professional legal counsel.</p>
-                            </div>
-                            <!-- /end site-wide disclaimer -->
-                        </div>
-                        <div class="span4">
-                            <!-- begin newsletter form area -->
-                            <div class="text">
-                                <div class="header">NEWSLETTER</div>
-                                <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
-                            </div>
-                            <div class="subscribe">
-                                <form action="/" method="post">
-                                    <input type="text" placeholder="Email Address" />
-                                    <input type="submit" value="GO" class="styler_bg_color" />
-                                </form>
-                            </div>
-                            <!-- /end newsletter form area -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="bottom">
                 <div class="container">
                     <div class="row">
                         <!-- edit copyright notice here -->
-                        <div class="copyrights">ONELAW One Page  Website Template for Lawyers by <a href="http://www.themeleaf.com">ThemeLeaf</a>. Copyright 2013.</div>
+                        <div class="copyrights">Copyright 2013-<span id="copyright_year"></span> Michael Chiang</div>
                     </div>
                 </div>
             </div>
@@ -778,10 +690,7 @@
         <script type="text/javascript" src="js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         
-        <!-- start style switcher -->
-        <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script>
-        <!-- /end style switcher -->
-        
+        <script type="text/javascript" src="js/mc.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>

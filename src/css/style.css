@@ -161,6 +161,11 @@ a:hover {
     color:#000;
     font-weight:400;
     padding-top:7px;}
+#header .inner .top .contacts_block .phone a, #header .inner .top .contacts_block .phone a:active, #header .inner .top .contacts_block .phone a:hover, #header .inner .top .contacts_block .phone a:visited {
+    font-size:16px;
+    color:#000;
+    font-weight:400;
+}
 #header .inner .top .contacts_block .phone span {
     font-weight:600;
     font-size:22px;
