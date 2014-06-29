@@ -773,9 +773,9 @@ form {
 }
 #wrapper .contacts .info .text {}
 #wrapper .contacts .info .text p {
-    font-size:12px;
+    font-size:18px;
     color:#0a2937;
-    line-height:18px;
+    line-height:24px;
     margin:0;
 }
 #map {
