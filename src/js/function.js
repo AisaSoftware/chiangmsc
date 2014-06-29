@@ -185,17 +185,6 @@ function topMenu(){
         } else {
             $("#header").removeClass('fixed');
         }
-        markers.each(function(){
-            var name_marker = '#' + $(this).attr('id');
-            if(scrollByClick == name_marker || !scrollByClick) {
-                var position = $(this).offset().top;
-                var name_anchor = name_marker.replace('_marker', '_anchor');
-                if(top >= position - $("#header .inner").height()){
-                    $("#top_menu li a[href='" + name_anchor + "']").closest('li').addClass('active').siblings().removeClass('active');
-                    $("#top_menu select option[value='" + name_anchor + "']").attr('selected', true).siblings().attr('selected', false);
-                }
-            }
-        })
     })
 	
 }

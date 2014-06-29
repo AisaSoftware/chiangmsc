@@ -160,11 +160,15 @@ a:hover {
     font-size:16px;
     color:#000;
     font-weight:400;
-    padding-top:7px;}
-#header .inner .top .contacts_block .phone a, #header .inner .top .contacts_block .phone a:active, #header .inner .top .contacts_block .phone a:hover, #header .inner .top .contacts_block .phone a:visited {
+    padding-top:7px;
+}
+.mailto {
+    padding-top: 8px;
+}
+.mailto a:active, .mailto a:hover, .mailto a:visited, .mailto a:link {
     font-size:16px;
     color:#000;
-    font-weight:400;
+    font-weight:700;
 }
 #header .inner .top .contacts_block .phone span {
     font-weight:600;
@@ -773,9 +777,9 @@ form {
 }
 #wrapper .contacts .info .text {}
 #wrapper .contacts .info .text p {
-    font-size:12px;
+    font-size:18px;
     color:#0a2937;
-    line-height:18px;
+    line-height:24px;
     margin:0;
 }
 #map {
@@ -1566,7 +1570,7 @@ form {
 }
 .honors ul li {
 	float:left;
-	width:50%;
+	width:25%;
 	text-align:center;
 	list-style:none;
 	height:140px;
@@ -1581,11 +1585,12 @@ form {
 	max-height:100%;
 }
 
-.servingsince {
+.since {
     border: 2px groove #eeeeee;
     line-height: normal;
     text-align: left;
     padding: 6px;
+    font-size:0.8em;
     background-color: #ffffff;
 }
 
