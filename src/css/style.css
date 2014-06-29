@@ -1566,7 +1566,7 @@ form {
 }
 .honors ul li {
 	float:left;
-	width:33%;
+	width:25%;
 	text-align:center;
 	list-style:none;
 	height:100px;
@@ -1581,11 +1581,12 @@ form {
 	max-height:100%;
 }
 
-.servingsince {
+.since {
     border: 2px groove #eeeeee;
     line-height: normal;
     text-align: left;
     padding: 6px;
+    font-size:0.8em;
     background-color: #ffffff;
 }
 
