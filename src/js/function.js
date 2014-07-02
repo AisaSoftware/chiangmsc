@@ -189,7 +189,7 @@ function topMenu(){
 	
 }
 
-map();
+//map();
 function map(){
     google.load('maps', '3', {
         other_params: 'sensor=false'
