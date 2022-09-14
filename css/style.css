@@ -1956,7 +1956,6 @@ form {
 }
 #wrapper .faq .caption {
 	padding:0;
-	border:0;
 }
 .faq > .header {
 	font-size:28px;
@@ -2078,7 +2077,7 @@ form {
 
 .info_slides_mc {
     margin:0;
-    border-bottom:1px solid #660000;
+    border-bottom:1px solid #a3a3a3;
 }
 .info_slides_mc > li {
     border-top:1px solid #a3a3a3;
