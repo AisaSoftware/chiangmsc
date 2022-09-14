@@ -2135,3 +2135,10 @@ form {
 .contacts_shim {
     height:425px;
 }
+.disclaimer {
+    margin-bottom: 50px;
+}
+.disclaimer_text {
+    font-family: "Times New Roman", Georgia, Garamond, serif;
+    font-size: 12pt;
+}
